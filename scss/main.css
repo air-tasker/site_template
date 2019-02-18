@@ -1,13 +1,13 @@
-.row {
-  margin-left: 0;
-  margin-right: 0; }
+
 
 p {
   margin-bottom: 0; }
 
 ul {
   margin-bottom: 0;
-  padding-left: 0; }
+  padding-left: 0;
+}
+
 
 .register-btn {
   text-decoration: none;
@@ -17,7 +17,7 @@ ul {
   opacity: 0.9;
   color: #7b1b2d;
   font-family: "Avant Garde";
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 400;
   letter-spacing: 0.61px;
   padding: 10px 40px; }
@@ -29,12 +29,13 @@ ul {
 header {
   background-color: #7b1b2d; }
   header .logo img {
+    width: 35%;
     margin-top: 40px; }
   header .register .member-types {
-    margin-top: 134px;
+    margin-top: 64px;
     margin-left: 50px; }
     header .register .member-types .members {
-      width: 480px;
+      width: 360px;
       justify-content: space-around;
       display: flex;
       align-items: center;
@@ -42,7 +43,7 @@ header {
       header .register .member-types .members .text {
         color: #efefef;
         font-family: "Avant Garde";
-        font-size: 36px;
+        font-size: 27px;
         font-weight: 400;
         letter-spacing: 0.61px;
         position: relative; }
@@ -55,12 +56,12 @@ header {
     header .register .member-types .reg {
       width: 100%;
       text-align: center;
-      margin-top: 85px; }
+      margin-top: 55px; }
   header .img-side {
     margin-top: 40px; }
     header .img-side img {
       float: right;
-      width: 680px;
+      width: 600px;
       margin-right: 60px;
       margin-bottom: 50px; }
 
@@ -206,7 +207,7 @@ footer {
       border-radius: 52px;
       background-color: #984242; }
     .left-side .register .member-types .members {
-      width: 480px;
+      width: 400px;
       justify-content: space-around;
       display: flex;
       align-items: center;
@@ -215,14 +216,15 @@ footer {
       .left-side .register .member-types .members .text {
         color: #efefef;
         font-family: "Avant Garde";
-        font-size: 36px;
+        font-size: 27px;
         font-weight: 400;
         letter-spacing: 0.61px;
+        margin-left: -40px;
         position: relative; }
         .left-side .register .member-types .members .text .info {
           position: absolute;
           top: 0;
-          right: -40px;
+          right: -30px;
           width: 20px;
           height: 20px; }
     .left-side .register .member-types .reg {
@@ -319,5 +321,6 @@ footer {
     .righ-side .content .inputs .reg-button {
       background-color: #7b1b2d;
       color: #ffffff; }
+    
 
 /*# sourceMappingURL=main.css.map */
